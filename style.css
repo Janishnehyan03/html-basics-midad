@@ -1,0 +1,41 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+header {
+  background-color: rgb(50, 50, 50);
+  height: 100px;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+.logo{
+  width: 60px;
+}
+.nav-items {
+  display: flex;
+}
+.nav-item {
+  margin-right: 10px;
+}
+.nav-item a {
+  color: white;
+  font-weight: bold;
+}
+
+.nav-item button {
+  background-color: orange;
+  border: none;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 24px;
+}
